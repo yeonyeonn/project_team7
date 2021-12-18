@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>리뷰 순위</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: rgb(108, 143, 0)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="#">
+          <img
+            src="myeonrun.png"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          성균관대 맛집
+        </a>
+        <div class="me-3" style="text-align:right;">
+        <button
+          class="navbar-toggler
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" onClick="location.href='index.html'">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: rgba(0,0,0,.55);" onClick="location.href='review.html'">리뷰 순위</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick="location.href='theme.html'">테마 순위</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onClick="location.href='price.html'">가성비 순위</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h1>리뷰 순위</h1>
+      <!--
+      <p>리뷰순위는 네이버지도, 망고플레이트, 인스타그램의 최근 6개월 간 리뷰들을 종합하여 진행한 감성분석을 토대로 제작되었습니다.</p>-->
+      </div>
+
+      <div class="d-flex container mt-4">
+      <iframe class="border border-3 rounded-3 shadow p-3 mb-5 bg-body rounded"
+        src="https://public.tableau.com/views/3_16396604926660/1?:language=ko-KR&publish=yes&:display_count=n&:origin=viz_share_link?:showVizHome=no&amp;:embed=true"
+        width="850"
+        height="600"
+      ></iframe>
+      
+      <div class="d-flex">
+          <div style="text-align:center">
+            <h2 class="ms-5 mt-3">
+                TOP 3
+            </h2>
+        </div>
+
+        <div style="text-align:right">
+        <div class="ms-5 mt-4 btn-group">
+            <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Category
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">한식</a></li>
+                <li><a class="dropdown-item" href="#">일식</a></li>
+                <li><a class="dropdown-item" href="#">양식</a></li>
+                <li><a class="dropdown-item" href="#">중식</a></li>
+                <li><a class="dropdown-item" href="#">아시안</a></li>
+                <li><a class="dropdown-item" href="#">분식</a></li>
+                <li><a class="dropdown-item" href="#">고기</a></li>
+                <li><a class="dropdown-item" href="#">술집</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+
+    
+      
+
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    --></div>
+</div>
+  </body>
+</html>

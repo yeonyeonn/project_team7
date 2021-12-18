@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(232, 237, 217);
+}
+
+nav {
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(235 243 211);
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(235 243 211);
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
