@@ -42,3 +42,5 @@
 https://yeonyeonn.github.io/project_team7 
 
 우리의 분석이 누군가의 점심 혹은 저녁에 소소한 즐거움이 되었으면 한다.
+
+발표자료: https://drive.google.com/file/d/1oNDqtjbzTjtWlbaz0li8xEzPADalQ5yA/view?usp=sharing
