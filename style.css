@@ -105,11 +105,16 @@ h2 {
   cursor: pointer;
 }
 
-.info3 {
-}
-
-.map_main {
+.map_btn {
   position: absolute;
-  width: 100%;
-  left: 17%;
+  top: 78%;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 6px 48px;
+  font-size: 17px;
+  background-color: rgb(108, 143, 0);
+  text-align: center;
+  left: 45.5%;
+  cursor: pointer;
 }
