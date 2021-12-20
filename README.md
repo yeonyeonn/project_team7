@@ -40,6 +40,8 @@
 
 시각화 과정에서 **태블로**를 활용했고, 시각화된 자료를 편리하게 활용할 수 있도록 **웹, 모바일 페이지**를 구성했다.
 **웹페이지** https://yeonyeonn.github.io/project_team7 
+
+
 **모바일 페이지** https://public.tableau.com/views/_16399675182430/main?:language=ko-KR&:display_count=n&:origin=viz_share_link
 
 우리의 분석이 누군가의 점https://drive.google.com/file/d/1eLWFcPNtmx8eytURTi941snPOKGyaBlg/view?usp=sharing심 혹은 저녁에 소소한 즐거움이 되었으면 한다.
